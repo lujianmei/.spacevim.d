@@ -63,3 +63,4 @@ let g:spacevim_colorscheme = 'gruvbox'
 "let g:spacevim_colorscheme_bg = 'dark'
 
 " change my own setting
+let g:chromatica#libclang_path = '/usr/local/bin/'
