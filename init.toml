@@ -33,7 +33,45 @@ name = "shell"
 default_position = "top"
 default_height = 30
 
+[[layers]]
+  name = "colorscheme"
+  random-theme = true
+
+[[layers]]
+  name = "git"
+
+[[layers]]
+  name = "lang#go"
+
+[[layers]]
+  name = "lang#html"
+
+[[layers]]
+  name = "lang#java"
+
+[[layers]]
+  name = "lang#javascript"
+  auto_fix = true
+  enable_flow_syntax = true 
+
+[[layers]]
+  name = "lang#lisp"
+
+[[layers]]
+  name = "lang#markdown"
+
+[[layers]]
+  name = "lang#python"
+
+[[layers]]
+  name = "tmux"
+
+[[layers]]
+  name = "ui"
+
 # This is an example for adding custom plugins lilydjwg/colorizer
 [[custom_plugins]]
 name = "lilydjwg/colorizer"
 merged = 0
+
+
